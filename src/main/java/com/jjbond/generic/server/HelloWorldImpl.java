@@ -1,8 +1,6 @@
 package com.jjbond.generic.server;
 
 import com.alibaba.fastjson.JSON;
-import model.HelloWorldService;
-import model.Model;
 import org.apache.thrift.TException;
 
 import java.util.Random;

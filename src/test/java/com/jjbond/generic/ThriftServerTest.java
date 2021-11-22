@@ -1,7 +1,7 @@
 package com.jjbond.generic;
 
 import com.jjbond.generic.server.HelloWorldImpl;
-import model.HelloWorldService;
+import com.jjbond.generic.server.HelloWorldService;
 import org.apache.thrift.TProcessor;
 import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.server.TNonblockingServer;

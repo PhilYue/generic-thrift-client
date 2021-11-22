@@ -13,6 +13,7 @@ import org.apache.thrift.protocol.TProtocolFactory;
 import org.apache.thrift.transport.*;
 import org.junit.Test;
 
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.TreeMap;
 
@@ -68,7 +69,7 @@ public class GenericTest {
         name.setThrfitType("string");
         name.setName("name");
 
-        TreeMap<String,GenericTree> children =  new TreeMap<String, GenericTree>();
+        LinkedHashMap<String,GenericTree> children =  new LinkedHashMap<String, GenericTree>();
         children.put(id.getName(),id);
         children.put(name.getName(),name);
         model.setChildren(children);
