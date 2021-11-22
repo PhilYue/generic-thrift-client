@@ -13,7 +13,7 @@
  
 >描述信息实体：<br>
 >>GenericTree<br>
-![](https://github.com/waj89757/generic-thrift-client/blob/master/img/GenericNode.jpg)<br>
+[GenericTree](https://github.com/waj89757/generic-thrift-client/blob/master/img/GenericNode.jpg)
 
 >如图，用来描述一个thrift对象。且这个树状结构可以将这个对象的层级关系描述清楚（比如说一个struct，就可能有多层关系）。
 
